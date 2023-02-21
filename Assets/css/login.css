@@ -1,0 +1,52 @@
+.a{
+    text-align: center;
+    height: 500px;
+}
+
+.abc input[type=text]{
+    margin-bottom: 5%;
+    margin-top: 3%;
+    width: 100%;
+}
+
+.abc input[type=password]{
+    margin-bottom: 5%;
+    margin-top: 3%;
+    width: 100%;
+}
+
+.abc{
+    margin: 10px 30%;
+}
+
+.kiri{
+    float: left;
+    color: #38abab;
+}
+
+.loginb{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.loginbtn input{
+    background:  #38abab;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 100%;
+    border-radius: 10%;
+    border: 1px solid rgb(160, 160, 160) ;
+    margin-bottom: 2%;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    -ms-transition: all .2s;
+    transition: all .2s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.loginbtn input:hover{
+    background: white;
+    color: black;
+}

@@ -1,0 +1,164 @@
+
+/* HEADER, LOGO, TOMBOL KANAN*/
+#header{
+    height: 80px;
+    color: white;
+    padding: 15px 0px;
+    width: 100%;
+    /* position:fixed; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#login{
+    background-color: #38abab;
+}
+.login{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.logo{
+    margin-left: 30px;
+    align-self: flex-start;
+}
+
+.top-navi{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+
+}
+.wrap{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.button{
+    font-size: 1.2em;
+    text-shadow: none;
+    display: inline-block;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+    outline:0;
+    font-family: sans-serif
+    margin: 0px;
+}
+
+/*SOCIAL*/
+
+#footer{
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    line-height: 20px;
+}
+.social-icon{
+    height: 30px;
+    margin: 5px;
+}
+
+.social{
+    justify-content: center;
+    height: 50px;
+    margin-top: 20px;
+}
+
+
+/*COPYRIGHT*/
+.copyright{
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    font-size: 0.700em;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: white;
+}
+p{
+    margin:0px;
+}
+
+/*INPUTS*/
+input[type=text]{
+    padding: 12px 20px;
+    width: 50%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+}
+input[type=password]{
+    width: 50%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 600px) {
+	.logo {
+		float:none;
+		display:block;
+		text-align: center;
+	}
+
+	.top-navi{
+		text-align: center;
+    	float: none;
+    	display: block;
+    	padding:0;
+        margin-top:20px;
+	}
+	#header{
+		height:100%;
+    }
+    /* .menu li a{
+        font-size: 13px;
+        width: 100%;
+    } */
+    .menu ul{
+        text-align: center;
+        display: inline-flex;
+        flex-direction: row;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+
+	#header{
+		height: 100%;
+	}
+	.logo {
+		float:none;
+		display:block;
+		text-align: center;
+	}
+
+	.top-navi{
+		text-align: center;
+    	float: none;
+    	display: block;
+    	padding:0;
+    	margin-top:20px;
+    }
+    .newsletter label{
+        font-size: 10px;
+    }
+}
+
+
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Assets/css/register.css">
+    <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="Assets/css/home.css">
+
+    <script src="assets/js/Validation.js"></script>
+
+    <title>Medicare Register</title>
+
+</head>
+<div id="header">
+    <div class="logo">
+        <a href="Home.html"><img width="200" height="75" src="Assets/images/icon.png" alt=""></a>
+    </div>
+    <div class="top-navi">
+        <a href="Home.html">
+            <h5 class="button">Home</h5>
+        </a>
+        <div class="button dropdown">
+            <a  href="">
+                <h5 class="button">Products</h5>
+            </a>
+            <div class="dropdown-content">
+                <a class="dropdownChild" href="Healthcare.html">
+                    <h5 class="dropdown-button">Healthcare</h5>
+                </a>
+
+                <a class="dropdownChild" href="Cosmetic.html">
+                    <h5 class="dropdown-button">Cosmetic</h5>
+                </a>
+                
+                <a class="dropdownChild" href="Misc..html">
+                    <h5 class="dropdown-button">Misc</h5>
+                </a>
+            </div>
+        </div>
+        <a href="About Us.html">
+            <h5 class="button">About Us</h5>
+        </a><a href="Register.html">
+            <h5 class="button">Register</h5>
+        </a><a href="Login.html">
+            <h5 class="button login">Login</h5>
+        </a>
+<!-- 
+        <a href="Home.html" class="button">Home</a>
+        <a href="Products.html" class="button">Products</a>
+        <a href="About Us.html" class="button">About Us</a>
+        <a href="Register.html" class="button">Register</a>
+        <a href="Login.html" class="button">Login</a> -->
+    </a>
+    </div>
+</div>
+<body>
+    <div>
+
+
+
+        <!---------------------------INI ADALAH CONTENT--------------->
+            <h1>Register</h1>
+            <div class="regis">
+                <label for="name">Full Name :</label>
+                <br>
+                <input type="text" name="name" id="nameu">
+            </div>
+            <div class="regis">
+                <label for="email">Email :</label>
+                <br>
+                <input type="text" name="email" id="emailu">
+            </div>
+            <div class="regis">
+                <label for="gender">Gender :</label>
+                <br>
+                <input type="radio" name="gender" id="gm" value="male">Male
+                <input type="radio" name="gender" id="gf" value="female">Female
+            </div>
+    
+            <div class="regis">
+                <label for="city">City :</label>
+                <br>
+                <select name="city" id="city" required>
+                    <option disabled selected value="">Select city</option>
+                    <option value="Jakarta">Jakarta</option>
+                    <option value="Semarang">Semarang</option>
+                    <option value="Surabaya">Surabaya</option>
+                </select>
+            </div>
+
+            <div class="regis">
+                <label for="password" class="regpass">Password :</label>
+                <br><br>
+                <input type="password" name="password" id="passworde">
+            </div>
+
+            <div class="regis">
+                <label for="confirmpassword">Confirm Password :</label>
+                <br><br>
+                <input type="password" name="confirmpassword" id="confirmpassworde">
+            </div>
+
+            <div class="regisbutt">
+                <input onclick=register() type="button" value="Register" class="regisbutton" id="regisbutton">
+            </div>
+        </div>
+    </div>
+
+
+    <!---------------------------------------FOOTER BANGG------------------->
+    <div id="footer">
+        <p class="social">                
+            <a href="https://twitter.com/" target="_blank"><img src="Assets/images/twitter.png" class="social-icon" alt=""></a>                
+            <a href="https://facebook.com" target="_blank"><img src="Assets/images/facebook.png" class="social-icon" alt=""></a>
+            <a href="https://www.instagram.com/felysiafee" target="_blank"><img src="Assets/images/instagram.png" class="social-icon" alt=""></a>
+        </p>
+
+        <p class="copyright">
+            Copyright ©2022 Felysia Meytri. All Rights Reserved.
+        </p>
+    </div>
+</div>
+<script src ="/Assets/js/Validation.js"></script>
+</body>
+</html>

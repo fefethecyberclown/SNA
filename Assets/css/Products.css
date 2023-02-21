@@ -1,0 +1,61 @@
+.healthtitle{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.caption{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 3%;
+}
+.content{
+    height: 900px;
+}
+
+.content p{
+    margin: 0px 5%;
+    text-align: center;
+}
+
+.jualan{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    margin: 5% 5%;
+}
+
+.tentangjualan{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin: 5% 5%;
+}
+
+
+
+.grid{
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1%;
+    /* border: 0px solid black; */
+    padding: 0px;
+    width: 25%;
+    box-shadow: 2px 2px 3px 5px rgb(180, 180, 180);
+    border-radius: 10px;
+}
+
+.section{
+    margin: auto;
+    width: 80%;
+    z-index: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-image{
+    margin: 0%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    z-index: 0;
+    height: 50%;
+}

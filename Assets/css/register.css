@@ -1,0 +1,90 @@
+h1{
+    text-align: center;
+}
+
+.regisbutt{
+    text-align: center;
+}
+
+.regis input[type=text]{
+    background: white;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+
+.regis{
+    margin: 0px 30%;
+    width: 80%;
+}
+
+.regis input[type=radio]{
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+select{
+    display: block;
+    font-size: 16px;
+    color: #38abab;
+
+    padding: .6em 1.4em .5em .8em;
+    width: 50%;
+
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid black;
+    box-shadow: 0 1px 0 1px black;
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+select::-ms-expand{
+    display: none;
+}
+
+select:hover{
+    border-color: blue;
+}
+
+.textarea{
+    background: white;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    width: 100%;
+    height: 10vh;
+    border-radius: .5em;
+}
+
+.regisbutt{
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+
+.regisbutt input{
+    background: #38abab;
+    color: white;
+    padding: 10px 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 130%;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    -ms-transition: all .2s;
+    transition: all .2s;
+}
+
+.regisbutt input:hover{
+    background: white;
+    color: black;
+}
